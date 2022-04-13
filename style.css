@@ -1,0 +1,15 @@
+#form {
+    padding: 50px;
+    background: lavender;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#Bb {
+    background-color: sandybrown;
+}
+#logo{
+    margin: 50 auto;
+    width:100px;
+}
