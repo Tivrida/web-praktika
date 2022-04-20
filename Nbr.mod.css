@@ -1,0 +1,31 @@
+.nbr {
+    border-bottom: 1px solid #000000;
+}
+.upperblock {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 885px;
+}
+.label {
+    font-size: 43px;
+    margin-left: 0;
+}
+.links {
+    margin-right: 0;
+}
+.home {
+    composes: links;
+    font-weight: 700;
+    margin-right: 25px;
+    text-decoration-line: unset;
+}
+.Takk {
+    composes: links;
+    text-decoration-line: underline;
+    margin-right: 0;
+}
+.lowerblock {
+    margin-bottom: 25px;
+}

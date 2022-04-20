@@ -1,8 +1,18 @@
 html, body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  width: 80%;
-  height: 80%;
-  margin: 10;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+* {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 420;
+    font-size: 18px;
+    max-width: 920px;
+    color: #000000;
 }

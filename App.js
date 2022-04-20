@@ -1,16 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-import { FuncComponent } from "./FuncComponent";
-import { ClassComponent} from "./ClassComponent";
-function App() {
-  return (
-    <div className="App">
-      <center>
-        <FuncComponent/>
-        <ClassComponent/>
-      </center>
-    </div>
-  );
-}
+import Frame from '../Frame/Frame'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import styles from './App.module.css'
+import Navbar from '../Navbar/Navbar';
+import Home from '../Home/Home';
+import Cart from '../Cart/Cart.js';
+import Footer from '../Footer/Footer.js'
 
-export default App;
+function App() {
+    return (
+        <div id='app'>
+            <Frame text={'Frame'}/>
+            <Router>
+                <div className={styles.app}><Navbar /><div>
+                        <Switch>
+                            <Route exact path="/"><Home /></Route>
+                            <Route path="/cart"><Cart /></Route>
+                        </Switch>
+                    </div><Footer /></div>
+                )
+            </Router>
+            )
+            }
+            export default App;

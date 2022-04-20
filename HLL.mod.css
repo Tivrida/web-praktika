@@ -1,0 +1,18 @@
+.input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+.checkbox {
+    margin-left:0;
+}
+.distancechoice {
+    margin-right:0;
+}
+.chosen {
+    font-weight: 625;
+}
+.notchosen {
+    text-decoration-line: underline;
+} 
