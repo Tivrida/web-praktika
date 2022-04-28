@@ -10,16 +10,29 @@ import Footer from '../Footer/Footer.js'
 function App() {
     return (
         <div id='app'>
-            <Frame text={'Frame'}/>
+            <Frame text={'Hey, Frame Here'}/>
             <Router>
-                <div className={styles.app}><Navbar /><div>
+                <div className={styles.app}>
+
+                    <Navbar />
+
+                    <div>
                         <Switch>
-                            <Route exact path="/"><Home /></Route>
-                            <Route path="/cart"><Cart /></Route>
+                            <Route exact path="/">
+                                <Home />
+                            </Route>
+                            <Route path="/cart">
+                                <Cart />
+                            </Route>
                         </Switch>
-                    </div><Footer /></div>
+                    </div>
+
+                    <Footer />
+
+                </div>
                 )
             </Router>
-            )
-            }
+            );
+            };
             export default App;
+
