@@ -1,0 +1,20 @@
+.line{
+    background-color: black;
+
+    width: 900px;
+    height: 1px;
+
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+
+@media(max-width: 900px){
+    .line{
+        width: 80%;
+    }
+}
+.liquidationPage{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }

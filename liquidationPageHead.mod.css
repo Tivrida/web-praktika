@@ -1,0 +1,37 @@
+.homeHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;
+}
+.name{
+    font-family: 'Helvetica';
+    font-style: normal;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    color: #000000;
+}
+.title{
+    width: 40%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 22%;
+}
+.liquidation{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+@media(max-width: 900px){
+    .title{
+        width: 80%;
+    }
+}
