@@ -1,0 +1,50 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.line {
+    background-color: #e66465;
+    width: 450px;
+    height: 1px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+input:focus {
+    border-color: darkcyan;
+    box-shadow: 0 0 10px green;
+}
+
+.textBoxes {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: grey;
+    margin-bottom: 10px;
+}
+
+.textBoxTitles {
+    align-self: flex-start;
+}
+
+.inputsFit {
+    left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginButton {
+    border-radius: 20px;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
